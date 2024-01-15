@@ -54,7 +54,13 @@ body {
 }
 
 
-
+.popular-tour-list {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
 
 
 /* ------------------ why choose section is here --------------*/
@@ -128,6 +134,14 @@ h1 {
 
 
 /*----------------------  Perfect place section is here ---------------------*/
+.perfect-place-pragraph {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .parfect-place-parent {
     display: flex;
     justify-content: space-between;
@@ -172,6 +186,7 @@ h1 {
 .footer-orange-color {
     color: #FF5400;
 }
+
 
 .footer-social {
     text-align: center;

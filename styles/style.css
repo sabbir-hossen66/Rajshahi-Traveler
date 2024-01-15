@@ -35,6 +35,31 @@ body {
 
 }
 
+.text-orange-color {
+    color: #FF5400;
+}
+
+
+/* -------------Header------------ */
+header {
+    margin: -70px;
+    margin-bottom: 80px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+.pages-name a {
+    font-size: 26px;
+    /* padding: 5px; */
+    margin-right: 25px;
+    text-decoration: none;
+}
 
 /*-----------------  Popular Tour Section is here -------------------*/
 
@@ -230,9 +255,7 @@ h1 {
     text-align: center;
 }
 
-.footer-orange-color {
-    color: #FF5400;
-}
+
 
 
 
@@ -243,7 +266,12 @@ h1 {
 
 /* mdeia query is here  */
 
-
+/* ------------header section-------------- */
+@media screen and (max-width:576px) {
+    .header-nav {
+        flex-direction: column;
+    }
+}
 
 /* ---------- here is the popular tour section --------------*/
 @media screen and (max-width:576px) {

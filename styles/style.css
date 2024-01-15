@@ -10,6 +10,11 @@ body {
 }
 
 /* Popular Tour Section is here */
+
+.popular-tour-section {
+    margin-bottom: 50px;
+}
+
 .popular-tour-parent {
     display: flex;
     justify-content: space-between;
@@ -17,7 +22,7 @@ body {
     align-items: center;
 }
 
-.popular-tour-title {
+.primary-main-title {
     color: #131318;
     font-family: 'Mulish', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -30,10 +35,71 @@ body {
     margin-right: 50px;
 }
 
+.gray-color-section-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
 .primary-btn {
     border-radius: 8px;
     background: #FF5400;
     border: none;
     color: white;
     padding: 14px 35px;
+}
+
+
+/* Perfect place section is here */
+.parfect-place-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parfect-place-left-side {
+    margin-right: 60px;
+}
+
+.perfect-section-img-pragraph {
+    position: absolute;
+    top: 160px;
+    left: 180px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+.perfect-section-img {
+    position: relative;
+}
+
+
+/* mdeia query is here  */
+/* here is the popular tour section */
+@media screen and (max-width:576px) {
+    .popular-tour-parent {
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 20px;
+
+    }
+
+
+    /* if i want maybe img can improve */
+}
+
+/* Perfect tour section is here */
+@media screen and (max-width:576px) {
+    .parfect-place-parent {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
 }

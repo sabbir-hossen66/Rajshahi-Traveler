@@ -9,7 +9,25 @@ body {
 
 }
 
-/* Popular Tour Section is here */
+.primary-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: white;
+    padding: 14px 35px;
+}
+
+.gray-color-section-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+
+/*-----------------  Popular Tour Section is here -------------------*/
 
 .popular-tour-section {
     margin-bottom: 50px;
@@ -35,25 +53,81 @@ body {
     margin-right: 50px;
 }
 
-.gray-color-section-text {
-    color: rgba(19, 19, 24, 0.70);
+
+
+
+
+/* ------------------ why choose section is here --------------*/
+.why-choose-section {
+    margin-bottom: 80px;
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+}
+
+.gray-color-section-text,
+h1 {
+    text-align: center;
+
+}
+
+
+
+.choose-us-section-parent {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.choose-us-left-side {
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid bisque;
+    border-radius: 15px;
+    width: 573px;
+    height: 284px;
+    padding: 18px;
+}
+
+.choose-us-right-side {
+    background-color: rgba(41, 206, 246, 0.05);
+    border: 1px solid bisque;
+    border-radius: 15px;
+    width: 573px;
+    height: 284px;
+    padding: 18px;
+}
+
+.choose-us-all-svg {
+    padding: 20px;
+}
+
+.choose-us-left-side-title {
+    color: #131318;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
 
 }
 
-.primary-btn {
-    border-radius: 8px;
-    background: #FF5400;
-    border: none;
-    color: white;
-    padding: 14px 35px;
+.choose-us-section-below-box {
+    background-color: rgba(233, 68, 68, 0.05);
+    border: 1px solid bisque;
+    border-radius: 15px;
+    width: 573px;
+    height: 284px;
+    padding: 18px;
+    margin-left: 432px;
+
 }
 
 
-/* Perfect place section is here */
+
+
+
+/*----------------------  Perfect place section is here ---------------------*/
 .parfect-place-parent {
     display: flex;
     justify-content: space-between;
@@ -80,8 +154,35 @@ body {
 }
 
 
+
+
+
+
+
+/* ---------------footer css is here----------------- */
+
+.footer-title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-orange-color {
+    color: #FF5400;
+}
+
+.footer-social {
+    text-align: center;
+    padding: 23px;
+}
+
 /* mdeia query is here  */
-/* here is the popular tour section */
+
+
+
+/* ---------- here is the popular tour section --------------*/
 @media screen and (max-width:576px) {
     .popular-tour-parent {
         flex-direction: column;
@@ -94,7 +195,34 @@ body {
     /* if i want maybe img can improve */
 }
 
-/* Perfect tour section is here */
+/*----------------- Why choose us section--------------- */
+@media screen and (max-width:576px) {
+    .choose-us-section-parent {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .choose-us-section-below-box {
+        margin-left: 0;
+        width: 350px;
+        height: 350px;
+        /* padding: 30; */
+    }
+
+    .choose-us-left-side {
+        width: 350px;
+        height: 350px;
+    }
+
+    .choose-us-right-side {
+        width: 350px;
+        height: 350px;
+    }
+
+}
+
+
+/*----------- Perfect tour section is here----------*/
 @media screen and (max-width:576px) {
     .parfect-place-parent {
         flex-direction: column;

@@ -371,10 +371,17 @@ h1 {
 
 }
 
+.news-letter-left-side {
+    border: 2px solid goldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
 .news-letter-title {
     color: #131318;
     font-family: 'Work Sans', sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 800;
 
 }
@@ -393,7 +400,9 @@ h1 {
     width: 250px;
     gap: 20px;
 
+
 }
+
 
 .news-letter-subscribe-btn {
     border-radius: 8px;
@@ -454,7 +463,8 @@ h1 {
     gap: 10;
     margin: 15px;
     font-family: 'Work Sans', sans-serif;
-    text-align: center;
+    /* text-align: center; */
+    padding: 0 10px;
 }
 
 
@@ -517,11 +527,6 @@ h1 {
 
 
 /* ------------header section-------------- */
-/* @media screen and (max-width:576px) {
-    .header-nav {
-        flex-direction: column;
-    }
-} */
 
 /* ------banner section---------- */
 @media screen and (max-width:576px) {
@@ -530,6 +535,14 @@ h1 {
     select {
 
         flex-direction: column;
+    }
+
+    .banner-content {
+        width: 300px;
+    }
+
+    .search-bar input button {
+        display: block;
     }
 }
 
@@ -543,7 +556,7 @@ h1 {
     }
 
 
-    /* if i want maybe img can improve */
+
 }
 
 
@@ -623,7 +636,6 @@ h1 {
 
 @media screen and (max-width:576px) {
     .footer-display {
-        /* flex-direction: column; */
         margin-left: 0px;
     }
 

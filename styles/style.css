@@ -195,14 +195,29 @@ option {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* .item1 img {
+.country-img {
     position: relative;
+    text-align: center;
+    color: white;
+
 }
+
+.country {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 
 .destination-section-pragraph {
     position: absolute;
     color: black;
-} */
+}
 
 .destination-img-container {
     width: 1170px;

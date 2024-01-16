@@ -310,6 +310,26 @@ h1 {
     height: 20px;
 } */
 
+
+/* -------------blog section-------------- */
+.blog-section-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.blog-section {
+    border: 2px solid goldenrod;
+    border-radius: 9px;
+    margin-right: 20px;
+    gap: 10;
+    margin: 15px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+
+
 /* ---------------footer css is here----------------- */
 
 .footer-title {
@@ -404,5 +424,13 @@ h1 {
     .news-letter-parent {
         flex-direction: column;
         gap: 20px;
+    }
+}
+
+/* ------- blog section ------------ */
+
+@media screen and (max-width:576px) {
+    .blog-section-parent {
+        flex-direction: column;
     }
 }

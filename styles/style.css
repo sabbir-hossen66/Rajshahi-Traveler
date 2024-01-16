@@ -11,8 +11,15 @@
 
 
 body {
-    margin: 135px 135px;
+    /* margin: 135px 135px; */
+    margin: 0 auto;
 
+}
+
+.container {
+    max-width: 1440px;
+    width: 81.25%;
+    margin: 0 auto;
 }
 
 .primary-main-title {
@@ -200,6 +207,7 @@ option {
     text-align: center;
     color: white;
 
+
 }
 
 .country {
@@ -219,17 +227,31 @@ option {
     color: black;
 }
 
+/* ---- */
+
+
+.country-img img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+    /* height: 175.393px; */
+    height: 300px;
+}
+
+/* --- */
+
 .destination-img-container {
-    width: 1170px;
+    /* width: 100%; */
     /* text-align: center;
-    align-items: center; */
-    margin-left: 190px;
+    /* align-items: center; */
+    /* margin-left: 190px; */
+    margin: 0 auto;
     display: grid;
     grid-template-areas:
         'item1 item1 item1 item1 item1 item1 item2 item2 item2 item2 item2 item2'
         'item3 item3 item3 item3 item4 item4  item4 item4 item4 item5 item5 item5'
         'item6 item6 item6 item6 item6 item7 item7 item7 item7 item7 item7 item7';
-    gap: 5px;
+    gap: 1.5rem;
 }
 
 .item1 {
@@ -482,6 +504,7 @@ h1 {
     padding: 0 10px;
 }
 
+/* -------------new blog section------------------- */
 
 
 /* ---------------footer css is here----------------- */
@@ -493,6 +516,7 @@ h1 {
     font-style: normal;
     font-weight: 800;
     text-align: center;
+
 }
 
 
@@ -510,6 +534,10 @@ h1 {
 .footer-social {
     text-align: center;
     padding: 23px;
+}
+
+footer hr {
+    width: 50%;
 }
 
 /*-------------------- mdeia query is here --------------------------------- */
@@ -607,7 +635,7 @@ h1 {
     }
 
     .choose-us-section-below-box {
-        margin-left: -70px;
+        margin-left: 47px;
         width: 350px;
         height: 390px;
         /* padding: 30; */

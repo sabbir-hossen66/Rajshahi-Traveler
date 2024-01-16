@@ -5,7 +5,7 @@
 
 * {
     text-decoration: none;
-    list-style: none;
+
     box-sizing: border-box;
 }
 
@@ -73,6 +73,10 @@ nav ul li a {
     border: 3px solid transparent;
     text-transform: uppercase;
 
+}
+
+nav ul li {
+    list-style: none;
 }
 
 ul li a:hover {
@@ -190,6 +194,15 @@ option {
     font-size: 34px;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* .item1 img {
+    position: relative;
+}
+
+.destination-section-pragraph {
+    position: absolute;
+    color: black;
+} */
 
 .destination-img-container {
     width: 1170px;

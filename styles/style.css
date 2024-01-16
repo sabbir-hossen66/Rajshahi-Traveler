@@ -61,6 +61,38 @@ header {
     text-decoration: none;
 }
 
+
+/* ------------banner section---------- */
+.banner-content {
+    background-image: url("../resources/Group\ 13\ \(1\)\ \(1\).png");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    border-radius: 16px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+}
+
+.banner-content h1 {
+    color: white;
+    font-size: 34px;
+    padding-top: 106px;
+    font-weight: 800;
+
+}
+
+.search-bar input,
+select,
+option {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
 /*-----------------  Popular Tour Section is here -------------------*/
 
 .popular-tour-section {
@@ -200,6 +232,7 @@ h1 {
 
 .news-letter-primary-section {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .news-letter-parent {
@@ -301,6 +334,16 @@ h1 {
 /* ------------header section-------------- */
 @media screen and (max-width:576px) {
     .header-nav {
+        flex-direction: column;
+    }
+}
+
+/* ------banner section---------- */
+@media screen and (max-width:576px) {
+
+    .search-bar form>input,
+    select {
+
         flex-direction: column;
     }
 }

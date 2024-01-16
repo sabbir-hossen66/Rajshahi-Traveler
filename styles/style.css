@@ -140,7 +140,10 @@ option {
 }
 
 .destination-img-container {
-    text-align: center;
+    width: 1170px;
+    /* text-align: center;
+    align-items: center; */
+    margin-left: 190px;
     display: grid;
     grid-template-areas:
         'item1 item1 item1 item1 item1 item1 item2 item2 item2 item2 item2 item2'
@@ -449,6 +452,25 @@ h1 {
 
     /* if i want maybe img can improve */
 }
+
+
+/* ------------------destination section------------------ */
+
+@media screen and (max-width:576px) {
+    .destination-img-container {
+        margin-left: 0px;
+        grid-template-areas:
+            'item1'
+            'item2'
+            'item3'
+            'item4'
+            'item5'
+            'item6'
+            'item7';
+        gap: 1.5rem;
+    }
+}
+
 
 /*----------------- Why choose us section--------------- */
 @media screen and (max-width:576px) {

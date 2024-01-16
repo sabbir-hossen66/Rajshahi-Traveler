@@ -241,6 +241,38 @@ h1 {
     padding: 14px 35px;
 }
 
+
+
+
+
+.news-letter-img {
+    position: relative;
+}
+
+.news-letter-offer-section {
+    position: absolute;
+    top: 165px;
+    left: 220px;
+    width: 360px;
+    height: 90px;
+    transform: rotate(-19.628deg);
+    /* text-align: center;
+    align-items: center; */
+    background-color: #FF5400;
+    border-radius: 18px;
+}
+
+.news-letter-offer-section p {
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 45px;
+    width: 234px;
+    height: 120px;
+}
+
 /* .news-letter-form input {
     height: 20px;
 } */

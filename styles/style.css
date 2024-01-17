@@ -146,6 +146,7 @@ header {
     border-radius: 16px;
     color: white;
     font-size: 20px;
+    margin-bottom: 10rem;
     font-family: 'Work Sans', sans-serif;
     /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
 }
@@ -452,7 +453,6 @@ h1 {
 
 
 
-
 .news-letter-img {
     position: relative;
 }
@@ -661,7 +661,14 @@ footer hr {
         gap: 20px;
     }
 
+    .perfect-section-img img {
+        width: 100%;
+    }
 
+    .perfect-section-img-pragraph {
+        top: 60px;
+        left: 40px;
+    }
 }
 
 
@@ -670,6 +677,19 @@ footer hr {
     .news-letter-parent {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .news-letter-photo img {
+        width: 100%;
+    }
+
+    .news-letter-offer-section {
+        width: 80%;
+        /* text-align: center;
+        align-items: center; */
+        left: 40px;
+        top: 80px;
+
     }
 }
 
@@ -690,5 +710,7 @@ footer hr {
 
     .footer-main {
         width: 250px;
+
+        margin-left: 7.5rem;
     }
 }
